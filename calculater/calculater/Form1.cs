@@ -4,9 +4,9 @@ namespace calculater
     {
 
         double num1 = 0;
-
+        double result;
         double num2 = 0;
-        
+        char op;
         
 
         public Form1()
@@ -16,34 +16,40 @@ namespace calculater
 
         private void button15_Click(object sender, EventArgs e)
         {
-           
-           char op = Convert.ToChar(((Button)sender).Text);
+            num2 = double.Parse(textBox1.Text);
+            try {
+                switch (op)
+                {
+                    case '+':
+                        result = num1 + num2;
+                        break;
+                    case '-':
+                        result = num1 - num2;
+                        break;
+                    case '*':
+                        result = num1 * num2;
+                        break;
+                    case '/':
+                        if (num1 != 0)
+                            result = num1 / num2;
+                        else MessageBox.Show("wrong");
+                        break;
 
-            num1 = Convert.ToDouble(textBox1.Text); Convert.ToDouble(textBox1.Text);
-            num2 = Convert.ToDouble(textBox1.Text);
-            double result;
-            switch (op)
-            {
 
-                case '+':
-                    result = num1 + num2;
-                    break;
-                case '-':
-                    result = num1 - num2;
-                    break;
-                case '*':
-                    result= num1 * num2;
-                    break;
-                case '/':
-                    result = num1 / num2;
-                    break;
-
+                }
+         }   catch  {
+            
+                textBox1.Text = "0";
             }
-            textBox1.Text = num1.ToString();
+            textBox1.Text = result.ToString();
 
-        }
+        }            
 
-        private void numbtnclick(object sender, EventArgs e)
+        
+
+            
+                    
+                   private void numbtnclick(object sender, EventArgs e)
         {
             if (textBox1.Text == "0")
                 textBox1.Text = ((Button)sender).Text;
@@ -63,9 +69,8 @@ namespace calculater
         private void opbtnclick(object sender, EventArgs e)
 
         {
-            double num1 = 0;
-            char op;
-           num1 = Convert.ToDouble(textBox1.Text); Convert.ToDouble(textBox1.Text);
+            num1 = double.Parse(textBox1.Text);
+           
             op = Convert.ToChar(((Button)sender).Text);
             textBox1.Text = "0";
 
