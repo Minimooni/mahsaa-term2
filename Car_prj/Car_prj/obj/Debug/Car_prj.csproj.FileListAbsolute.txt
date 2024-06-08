@@ -1,0 +1,15 @@
+F:\pro\Car_prj\Car_prj\bin\Debug\Database1.mdf
+F:\pro\Car_prj\Car_prj\bin\Debug\Database1_log.ldf
+F:\pro\Car_prj\Car_prj\bin\Debug\Car_prj.exe.config
+F:\pro\Car_prj\Car_prj\bin\Debug\Car_prj.exe
+F:\pro\Car_prj\Car_prj\bin\Debug\Car_prj.pdb
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.csproj.AssemblyReference.cache
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.csproj.SuggestedBindingRedirects.cache
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.Drivers.resources
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.Form1.resources
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.Properties.Resources.resources
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.csproj.GenerateResource.cache
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.csproj.CoreCompileInputs.cache
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.exe
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.pdb
+F:\pro\Car_prj\Car_prj\obj\Debug\Car_prj.car_salaries.resources
